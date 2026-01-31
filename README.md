@@ -14,15 +14,59 @@ Music platforms host millions of tracks, making manual classification by genre o
 
 ### 3. Objectives
 
-Automatically cluster songs based on audio features
+             Automatically cluster songs based on audio features
 
-Identify patterns and similarities in music data
+             Identify patterns and similarities in music data
 
-Evaluate clustering quality using standard metrics
+             Evaluate clustering quality using standard metrics
 
-Visualize clusters interactively
+             Visualize clusters interactively
 
-Predict the cluster of new songs
+             Predict the cluster of new songs
+
+
+### 4.✨ Features
+
+       Data Exploration & Preprocessing: Comprehensive EDA, handling missing values, and feature scaling
+       
+       Multiple Clustering Algorithms: K-Means and DBSCAN implementation
+       
+       Optimal Cluster Selection: Elbow method and Silhouette score analysis
+       
+       Dimensionality Reduction: PCA visualization for 2D cluster representation
+       
+       Model Persistence: Trained models saved for production use
+       
+       Interactive Web App: Streamlit-based predictor for real-time cluster prediction
+       
+       Comprehensive Analysis: Cluster profiling and genre inference
+
+### 5.🛠️ Tech Stack
+
+Languages & Libraries:
+
+Python 3.8+
+
+Pandas, NumPy - Data manipulation
+
+Scikit-learn - Machine learning algorithms
+
+Matplotlib - Data visualization
+
+Joblib - Model serialization
+
+Streamlit - Web application framework
+
+Algorithms:
+
+K-Means Clustering
+
+DBSCAN (Density-Based Spatial Clustering)
+
+Principal Component Analysis (PCA)
+
+StandardScaler for feature normalization
+
 
 ### 4. Dataset Description
 
@@ -30,29 +74,27 @@ The dataset contains audio features extracted from music tracks, representing va
 
 ### 5. Feature Selection
 
-The following features are used for clustering:
+Selected Features:
 
-Danceability
+             danceability - How suitable a track is for dancing
 
-Energy
+             energy - Intensity and activity measure
 
-Loudness
+             loudness - Overall loudness in decibels
 
-Speechiness
+             speechiness - Presence of spoken words
 
-Acousticness
+             acousticness - Confidence measure of acoustic sound
 
-Instrumentalness
+             instrumentalness - Predicts whether a track contains vocals
 
-Liveness
+             liveness - Presence of an audience
 
-Valence
+             valence - Musical positiveness
 
-Tempo
+             tempo - Beats per minute (BPM)
 
-Duration (ms)
-
-These features effectively capture the musical characteristics required for grouping similar tracks.
+             duration_ms - Track length in milliseconds
 
 ### 6. Data Preprocessing
 
