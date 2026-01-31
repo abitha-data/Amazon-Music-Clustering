@@ -132,11 +132,11 @@ Cluster Distribution (K-Means with k=3)
 
          Cluster	           Description	                  Key Characteristics
          
-         Cluster 0	           Chill Acoustic	                  Low energy, high acousticness, calm vibe
+         Cluster 0	           Chill Acoustic	               Low energy, high acousticness, calm vibe
          
-         Cluster 1	           Party Tracks	                  High danceability, high energy, high tempo, high valence
+         Cluster 1	           Party Tracks	                 High danceability, high energy, high tempo, high valence
 
-         Cluster 2	           Rap/Live Recordings	           High danceability, medium energy, high speechiness, high liveness
+         Cluster 2	           Rap/Live Recordings	          High danceability, medium energy, high speechiness, high liveness
 
 ### 11. Visualization
 
