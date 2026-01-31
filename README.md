@@ -126,13 +126,17 @@ These metrics helped assess cluster compactness and separation.
 
 ### 10. Cluster Interpretation
 
-      Cluster	                   Description
+📊 Results
+
+Cluster Distribution (K-Means with k=3)
+
+         Cluster	           Description	                  Key Characteristics
          
-         0	                      Chill and acoustic tracks
+         Cluster 0	           Chill Acoustic	                  Low energy, high acousticness, calm vibe
          
-         1	                      High-energy and party tracks
-         
-         2	                      Rap, spoken-word, or live tracks
+         Cluster 1	           Party Tracks	                  High danceability, high energy, high tempo, high valence
+
+         Cluster 2	           Rap/Live Recordings	           High danceability, medium energy, high speechiness, high liveness
 
 ### 11. Visualization
 
@@ -179,7 +183,7 @@ Step 2: Install dependencies
 
 Step 3: Run the Streamlit application
 
-        streamlit run app.py
+        streamlit run amazonapp.py
 
 
 ### 14. Conclusion
