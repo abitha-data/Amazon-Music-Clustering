@@ -14,32 +14,32 @@ Music platforms host millions of tracks, making manual classification by genre o
 
 ### 3. Objectives
 
-             Automatically cluster songs based on audio features
+Automatically cluster songs based on audio features
 
-             Identify patterns and similarities in music data
+Identify patterns and similarities in music data
 
-             Evaluate clustering quality using standard metrics
+Evaluate clustering quality using standard metrics
 
-             Visualize clusters interactively
+Visualize clusters interactively
 
-             Predict the cluster of new songs
+Predict the cluster of new songs
 
 
 ### 4.✨ Features
 
-       Data Exploration & Preprocessing: Comprehensive EDA, handling missing values, and feature scaling
+Data Exploration & Preprocessing: Comprehensive EDA, handling missing values, and feature scaling
        
-       Multiple Clustering Algorithms: K-Means and DBSCAN implementation
+Multiple Clustering Algorithms: K-Means and DBSCAN implementation
        
-       Optimal Cluster Selection: Elbow method and Silhouette score analysis
+Optimal Cluster Selection: Elbow method and Silhouette score analysis
        
-       Dimensionality Reduction: PCA visualization for 2D cluster representation
+Dimensionality Reduction: PCA visualization for 2D cluster representation
        
-       Model Persistence: Trained models saved for production use
+Model Persistence: Trained models saved for production use
        
-       Interactive Web App: Streamlit-based predictor for real-time cluster prediction
+Interactive Web App: Streamlit-based predictor for real-time cluster prediction
        
-       Comprehensive Analysis: Cluster profiling and genre inference
+Comprehensive Analysis: Cluster profiling and genre inference
 
 ### 5.🛠️ Tech Stack
 
@@ -68,11 +68,11 @@ Algorithms:
           StandardScaler for feature normalization
 
 
-### 4. Dataset Description
+### 6. Dataset Description
 
 The dataset contains audio features extracted from music tracks, representing various musical properties such as rhythm, energy, and mood. Each row corresponds to a song, and numerical features are used for clustering.
 
-### 5. Feature Selection
+### 7. Feature Selection
 
 Selected Features:
 
@@ -96,7 +96,7 @@ Selected Features:
 
              duration_ms - Track length in milliseconds
 
-### 6. Data Preprocessing
+### 8. Data Preprocessing
 
 Removed irrelevant and non-numeric columns
 
@@ -104,7 +104,7 @@ Checked and handled missing values
 
 Scaled features using StandardScaler to ensure equal contribution during clustering
 
-### 7. Clustering Methodology
+### 9. Clustering Methodology
 
 Applied K-Means clustering as the primary algorithm
 
@@ -112,7 +112,7 @@ Determined the optimal number of clusters using the Elbow Method
 
 Evaluated cluster quality using the Silhouette Score
 
-### 8. Cluster Evaluation
+### 10. Cluster Evaluation
 
 The clustering results were evaluated using:
 
@@ -124,9 +124,9 @@ Inertia (for K-Means)
 
 These metrics helped assess cluster compactness and separation.
 
-### 9. Cluster Interpretation
+### 10. Cluster Interpretation
 
-      Cluster	                    Description
+      Cluster	                   Description
          
          0	                      Chill and acoustic tracks
          
@@ -134,7 +134,7 @@ These metrics helped assess cluster compactness and separation.
          
          2	                      Rap, spoken-word, or live tracks
 
-### 10. Visualization
+### 11. Visualization
 
 PCA-based 2D cluster visualization
 
@@ -144,7 +144,7 @@ Cluster-wise comparison charts
 
 These visualizations aid in understanding the characteristics of each cluster.
 
-### 11. Streamlit Dashboard
+### 12. Streamlit Dashboard
 
 An interactive Streamlit dashboard was developed with the following features:
 
@@ -160,19 +160,10 @@ Mood-based cluster recommendation
 
 New song cluster prediction
 
-### 12. Deployment
+### 13. Deployment
 
 The application can be deployed using Streamlit Cloud for public access and demonstration.
 
-### 13. Learning Outcomes
-
-Practical understanding of unsupervised learning
-
-Hands-on experience with clustering algorithms
-
-Ability to evaluate and interpret clustering results
-
-Experience in building and deploying ML dashboards
 
 ### 14. Conclusion
 
