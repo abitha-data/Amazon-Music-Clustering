@@ -45,27 +45,27 @@ Music platforms host millions of tracks, making manual classification by genre o
 
 Languages & Libraries:
 
-Python 3.8+
+           Python 3.8+
 
-Pandas, NumPy - Data manipulation
+           Pandas, NumPy - Data manipulation
 
-Scikit-learn - Machine learning algorithms
+           Scikit-learn - Machine learning algorithms
 
-Matplotlib - Data visualization
+           Matplotlib - Data visualization
 
-Joblib - Model serialization
+           Joblib - Model serialization
 
-Streamlit - Web application framework
+           Streamlit - Web application framework
 
 Algorithms:
 
-K-Means Clustering
+          K-Means Clustering
 
-DBSCAN (Density-Based Spatial Clustering)
+          DBSCAN (Density-Based Spatial Clustering)
 
-Principal Component Analysis (PCA)
+          Principal Component Analysis (PCA)
 
-StandardScaler for feature normalization
+          StandardScaler for feature normalization
 
 
 ### 4. Dataset Description
