@@ -165,6 +165,23 @@ New song cluster prediction
 The application can be deployed using Streamlit Cloud for public access and demonstration.
 
 
+### How to Run the Project Locally
+
+Step 1: Clone the repository
+     
+        git clone https://github.com/your-username/Amazon-Music-Clustering.git
+
+        cd Amazon-Music-Clustering
+
+Step 2: Install dependencies
+
+        pip install -r requirements.txt
+
+Step 3: Run the Streamlit application
+
+        streamlit run app.py
+
+
 ### 14. Conclusion
 
 This project demonstrates how unsupervised learning techniques can be effectively used to analyze and organize large-scale music data, supporting recommendation systems and data-driven decision making.
